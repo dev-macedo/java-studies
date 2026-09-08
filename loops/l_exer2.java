@@ -13,31 +13,21 @@ public class l_exer2{
             System.out.print("Digite a coordenada y: ");
             y = scanner.nextInt();
 
-            if(x == 0 || y == 0){
+            if(x == 0 || y == 0){ //verifica se é 0
                 break;
+            } else if (x>0 && y>0){
+            System.out.println("primeiro");
+            } else if(x>0 && y<0){
+            System.out.println("quarto");
+            } else if(x<0 && y>0){
+            System.out.println("segundo");
             } else{
-                if(x>0)
-                {
-                    if(y>0){
-                    System.out.println("Q1");
-                    break;
-                    } else{
-                    System.out.println("Q4");
-                    break;
-                    }
-                } else{
-                    if(y>0){
-                    System.out.println("Q2");
-                    break;
-                    } else{
-                    System.out.println("Q3");
-                    break;
-                    }
-                }
+            System.out.println("terceiro");
+            } 
+            
 
             }
             
         }
 
     }
-}
