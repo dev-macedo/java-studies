@@ -4,17 +4,16 @@ public class l_exer2{
     public static void main(String[] args){
 
         Scanner scanner = new Scanner (System.in);
-
         int x, y;
         
         while(true){
 
-            System.out.println("Digite a coordenada x: ");
+            System.out.print("Digite a coordenada x: ");
             x = scanner.nextInt();
-            System.out.println("Digite a coordenada y: ");
+            System.out.print("Digite a coordenada y: ");
             y = scanner.nextInt();
 
-            if(x == 0 || y ==0){
+            if(x == 0 || y == 0){
                 break;
             } else{
                 if(x>0)
@@ -26,7 +25,16 @@ public class l_exer2{
                     System.out.println("Q4");
                     break;
                     }
+                } else{
+                    if(y>0){
+                    System.out.println("Q2");
+                    break;
+                    } else{
+                    System.out.println("Q3");
+                    break;
+                    }
                 }
+
             }
             
         }
