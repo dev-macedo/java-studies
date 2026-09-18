@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class m_exer1{
+public class m_exer2{
         public static void main(String[] args){
             float a,b;
             int whichCase;
@@ -31,7 +31,6 @@ public class m_exer1{
             }
                 
 
-            
 
         }
 
